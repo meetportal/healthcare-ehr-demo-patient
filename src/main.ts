@@ -2,7 +2,7 @@ import { WINDOW, usePortalService } from '@meetportal/portal-js'
 
 import { PATIENT_TYPE } from '@meetportal/healthcare-js'
 
-export default async function main() {
+async function main() {
   const portal = usePortalService()
 
   portal.subscribe(WINDOW.ON_URL_CHANGE, '*', (url: string) => {
