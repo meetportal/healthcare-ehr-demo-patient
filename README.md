@@ -1,3 +1,5 @@
-# Portal Service Starter
+# Demo EHR Patient Integration
 
-This project is a starter for creating a portal service. It is a simple project that can be used as a starting point for creating a portal service.
+This integration focuses on discovering the patient ID.
+
+[https://meetportal.github.io/demo-ehr-patient/dist/worker.js](https://meetportal.github.io/demo-ehr-patient/dist/worker.js)
