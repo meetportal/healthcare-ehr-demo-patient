@@ -112,6 +112,13 @@
   resolved "https://registry.yarnpkg.com/@esbuild/win32-x64/-/win32-x64-0.17.16.tgz#260f19b0a3300d22c3a3f52722c671dc561edaa3"
   integrity sha512-xJ7OH/nanouJO9pf03YsL9NAFQBHd8AqfrQd7Pf5laGyyTt/gToul6QYOA/i5i/q8y9iaM5DQFNTgpi995VkOg==
 
+"@meetportal/healthcare-js@^0.2.1":
+  version "0.2.1"
+  resolved "https://registry.yarnpkg.com/@meetportal/healthcare-js/-/healthcare-js-0.2.1.tgz#e9767f2a776a0894bd026fd0207a450d1c38c7d8"
+  integrity sha512-QZHST3NZQzN0V8eOc0EGX+rXnF1iOezbmi1jFXPwR3ygHPmkm9dyiSrGi/iqynLZIoc0n8RCVt4727C1DuLB8A==
+  dependencies:
+    typedoc "^0.23.28"
+
 "@meetportal/portal-js@^0.3.4":
   version "0.3.4"
   resolved "https://registry.yarnpkg.com/@meetportal/portal-js/-/portal-js-0.3.4.tgz#8e3f8eca3327ca0761297ef5a22b77b49c9417bd"
