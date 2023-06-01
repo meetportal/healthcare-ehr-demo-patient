@@ -4,6 +4,8 @@ import { PATIENT_TYPE } from '@meetportal/healthcare-js'
 
 const portal = usePortalService()
 
+console.log('📦 healthcare-ehr-demo-patient loaded...')
+
 portal.subscribe(WINDOW.ON_URL_CHANGE, '*', (url: string) => {
   if (!url) return
   console.log('📦 url', url)
