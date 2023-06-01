@@ -1,6 +1,6 @@
 {
-  "name": "demo-ehr-patient",
-  "version": "0.1.1",
+  "name": "healthcare-ehr-demo-patient",
+  "version": "0.1.2",
   "description": "Portal service worker starter",
   "type": "module",
   "files": [
@@ -10,11 +10,11 @@
     "build": "tsc && vite build"
   },
   "devDependencies": {
-    "typescript": "^5.0.4",
-    "vite": "^4.3.3"
+    "typescript": "^5.1.3",
+    "vite": "^4.3.9"
   },
   "dependencies": {
     "@meetportal/healthcare-js": "^0.2.1",
-    "@meetportal/portal-js": "^0.4.2"
+    "@meetportal/portal-js": "^0.4.8"
   }
 }

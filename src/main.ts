@@ -6,9 +6,11 @@ const portal = usePortalService()
 
 portal.subscribe(WINDOW.ON_URL_CHANGE, '*', (url: string) => {
   if (!url) return
+  console.log('📦 url', url)
   const regex = new RegExp('/\\d+$')
   const match = url.match(regex)
   const patientId = (match?.length ? match[0] : '').substring(1)
+  console.log('📦 patientId', patientId)
   if (patientId) {
     portal.setResource({
       id: patientId,
